@@ -3,7 +3,7 @@ import pyodbc
 
 # Initialize connection.
 # Uses st.cache_resource to only run once.
-@st.cache_resource
+#@st.cache_resource
 # def init_connection():
 #     return pyodbc.connect(
  #        "DRIVER={ODBC Driver 17 for SQL Server};SERVER="
